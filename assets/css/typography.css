@@ -1,0 +1,35 @@
+a {
+	color: #0134c5;
+	background-color: transparent;
+	text-decoration: none;
+	font-weight: normal;
+	outline-style: none;
+}
+
+a:visited {
+	color: #0134c5;
+	background-color: transparent;
+	text-decoration: none;
+	outline-style: none;
+}
+
+a:hover {
+	color: #000;
+	text-decoration: none;
+	background-color: transparent;
+	outline-style: none;
+}
+
+h1, h2, h3 {
+	margin: 0;
+	padding: 0;
+	font: bold 1.5em Helvetica, Arial, Sans-Serif;
+}
+
+h2 {
+	font: bold 1.25em Helvetica, Arial, Sans-Serif;
+}
+
+h3 {
+	font: bold 1.15em Helvetica, Arial, Sans-Serif;
+}

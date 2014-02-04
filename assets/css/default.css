@@ -1,0 +1,485 @@
+/* @override http://orwell.unfcsd.unf.edu/db/assets/css/default.css */
+
+body {
+	margin: 0;
+	padding: 0;
+	font: normal 14px "Lucida Grande", Verdana, Geneva, Sans-serif;
+	color: #333;
+	background: #dcdcdc;
+	min-width: 960px;
+}
+
+.x-hidden {
+	display: none;
+}
+
+.link-new {
+	font: normal 11px "Lucida Grande", Verdana, Geneva, Sans-serif;
+	color: blue;
+}
+
+.link-new:hover {
+	text-decoration:underline;
+}
+
+.grey1-gradient {
+	background-image: -webkit-linear-gradient(#fff, #dcdcdc);
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#fff), to(#dcdcdc));
+	background-image: -moz-linear-gradient(#fff, #dcdcdc);
+}
+
+.grey2-gradient {
+	background-image: -webkit-linear-gradient(#dcdcdc, #999999);
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#dcdcdc), to(#999999));
+	background-image: -moz-linear-gradient(#dcdcdc, #999999);
+}
+
+.grey3-gradient {
+	background-image: -webkit-linear-gradient(#eee, #ccc);
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#eee), to(#ccc));
+	background-image: -moz-linear-gradient(#eee, #ccc);
+}
+
+.grey4-gradient {
+	background-image: -webkit-linear-gradient(#999, #666);
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#999), to(#666));
+	background-image: -moz-linear-gradient(#999, #666);
+}
+
+.blue-gradient {
+	background-image: -webkit-linear-gradient(#D0E5F5, #1D5987);
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#D0E5F5), to(#1D5987));
+	background-image: -moz-linear-gradient(#D0E5F5, #1D5987);
+}
+
+.center-page {
+	margin: 0 auto;
+	width:500px;
+	height: 300px;
+}
+
+#login-wrapper {
+	width: 400px;
+	height: 290px;
+	background: #fff;
+	border: solid 1px #999;
+	box-shadow: 0 0 5px #777;
+	-moz-box-shadow: 0 0 5px #888;
+	-webkit-box-shadow: 0 0 5px #888;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	background-image: -webkit-linear-gradient(#D0E5F5, #1D5987);
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#D0E5F5), to(#1D5987));
+	background-image: -moz-linear-gradient(#D0E5F5, #1D5987);
+}
+
+#login-wrapper #logo {
+	margin: 0 auto;
+	height: 125px;
+	width: 125px;
+	background: url('img/tam-logo.png');
+}
+	
+#login-form-container fieldset {
+	margin: 0 20px;
+	margin-bottom: 10px;
+	border: solid 1px #dcdcdc;
+}
+
+#login-form-container fieldset legend {
+	padding: 0 10px;
+	text-align: center;
+	font: bold 2em "Lucida Grande", Verdana, Geneva, Sans-serif;
+	color: #ccc;
+	text-shadow: 1px 1px 5px #333333;
+}
+
+#login-form-container #row {
+	display: table-row;
+}
+
+#login-form-container label {
+	display: table-cell;
+	width: 100px;
+	color: #fff;
+	font: bold 1em "Lucida Grande", Verdana, Geneva, Sans-serif;
+}
+
+#login-form-container input[type="text"],
+#login-form-container input[type="password"] {
+ 	display: table-column;
+	color: #333;
+	width: 230px;
+	background: #fff;
+}
+
+.login-button {
+	display: table-cell;
+	margin: 0;
+	padding: 0;
+	width: 119px;
+	height: 35px;
+	font: normal 1em "Lucida Grande", Verdana, Geneva, Sans-serif;
+}
+
+#masthead { 
+	height: 125px;
+	border-top: 5px solid #555;
+	border-bottom: 5px solid #555;
+}
+
+#masthead h1 {
+	background-color: transparent;
+	color: #444;
+	font: bold 2em "Lucida Grande", Verdana, Geneva, Sans-serif;
+	line-height: 125px;
+	padding: 0 0 6px 0;
+	text-shadow: 1px 1px 5px #dcdcdc;
+}
+
+#masthead #logo {
+	height: 125px;
+	width: 125px;
+	background: url('img/tam-logo.png');
+}
+
+#masthead #tools {
+	margin: 6px;
+	border: solid 1px #999;
+	height: 110px;
+	background: rgba(255,255,255,0.5);
+	box-shadow: 0 0 5px #777;
+	-moz-box-shadow: 0 0 5px #888;
+	-webkit-box-shadow: 0 0 5px #888;
+}
+
+#masthead #tools h2 {
+	margin: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+	font: bold 12px "Lucida Grande", Verdana, Geneva, Sans-serif;
+	border-bottom: solid 1px #999;
+}
+
+#masthead #tools ul {
+	margin: 0;
+	margin-left: 10px;
+	padding: 0;
+}
+
+#masthead #tools ul li {
+	list-style-type: none;
+	list-style-position: inside;
+	font: normal 12px "Lucida Grande", Verdana, Geneva, Sans-serif;
+}
+
+#masthead #tools ul li a {
+	font: bold 12px "Lucida Grande", Verdana, Geneva, Sans-serif;
+}
+
+#navleft {
+	box-shadow: 0 0 5px #777;
+	-moz-box-shadow: 0 0 5px #888;
+	-webkit-box-shadow: 0 0 5px #888;
+	margin: 0;
+}
+
+.panel {
+	cursor: pointer;
+}
+
+.panel h1 {
+	padding: 5px;
+}
+
+.panel h1 a {
+	color: #ddd;
+	font: bold 1em "Lucida Grande", Verdana, Geneva, Sans-serif;
+	text-shadow: 1px 1px 5px #222222;
+}
+
+#navleft ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+#navleft ul li {
+	border-bottom: solid 1px #777;
+}
+
+#navleft ul li a {
+	display: block;
+	padding: 10px;
+	background: #fff;
+	font: bold 14px "Lucida Grande", Verdana, Geneva, Sans-serif;
+	color: #555;
+}
+
+#navleft ul li a:hover {
+	color: #fff;
+	background-image: -webkit-linear-gradient(#dcdcdc, #999999);
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#dcdcdc), to(#999999));
+	background-image: -moz-linear-gradient(#dcdcdc, #999999);
+}
+
+#content-container {
+	margin-top: 20px;
+}
+
+#content {
+	clear: both;
+	margin-bottom: 20px;
+}
+
+#content-frame {
+	box-shadow: 0 0 5px #777;
+	-moz-box-shadow: 0 0 5px #888;
+	-webkit-box-shadow: 0 0 5px #888;
+}
+
+#content-frame h1 {
+	padding: 6px;
+	color: #ddd;
+	font: bold 1.5em "Lucida Grande", Verdana, Geneva, Sans-serif;
+	text-shadow: 1px 1px 5px #222222;
+	background-image: -webkit-linear-gradient(#D0E5F5, #1D5987);
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#D0E5F5), to(#1D5987));
+	background-image: -moz-linear-gradient(#D0E5F5, #1D5987);
+}
+
+#dashboard-table {
+	width: 100%;
+	border: none;
+}
+
+#dashboard-table tr td{
+	border-left: solid 1px #dddddd;
+	border-top: solid 1px #dddddd;
+	border-right: solid 1px #cccccc;
+	border-bottom: solid 1px #cccccc;
+	font: bold 12px "Lucida Grande", Verdana, Geneva, Sans-serif;
+	padding: 5px;
+}
+
+#dashboard-table tr td.label {
+	width: 175px;
+	background: #dcdcdc;
+}
+
+#dashboard-table tr td.value {
+	background: #ffffff;
+}
+
+#dashboard-table tr td.value p {
+	margin: 0;
+	padding: 0;
+}
+
+.command-bar {
+	height: 37px;
+	background: #D0E5F5;
+	border-left: solid 1px #dcdcdc;
+	border-right: solid 1px #dcdcdc;
+	border-bottom: solid 1px #999;
+}
+
+.command-bar ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.command-bar ul li a {
+	display: block;
+	float: left;
+	padding: 5px 15px;
+	margin: 5px 1px 5px 5px; /* top right bottom left */
+	color: #333;
+	font: bold 12px "Lucida Grande", Verdana, Geneva, Sans-serif;
+	border: solid 1px #888;
+	background-image: -webkit-linear-gradient(#fff, #ccc);
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#fff), to(#ccc));
+	background-image: -moz-linear-gradient(#fff, #ccc);
+	border-radius: 2px;
+	-webkit-border-radius: 3px;
+}
+
+.command-bar ul li a:hover {
+	color: #fff;
+	background-image: -webkit-linear-gradient(#D0E5F5, #1D5987);
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#D0E5F5), to(#1D5987));
+	background-image: -moz-linear-gradient(#D0E5F5, #1D5987);
+}
+
+.command-bar .comment-button {
+	float: right; 
+	margin-right: 5px;
+}
+
+.form-container form fieldset {
+	display: table;
+	padding: 15px;
+	margin: 10px;
+	background: #fff;
+	border-left: solid 1px #999;
+	border-top: solid 1px #999;
+	border-right: solid 1px #fff;
+	border-bottom: solid 1px #fff;
+}
+
+.form-container fieldset legend {
+	padding: 0 0 0 10px;
+	width: 250px;
+	line-height: 25px;
+	font-weight: bold;
+	border-top: solid 1px #ccc;
+	border-left: solid 1px #ccc;
+	border-right: solid 1px #999;
+	border-bottom: solid 1px #999;
+	background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#dcdcdc));
+	background: -moz-linear-gradient(top, #fff, #dcdcdc);
+	background: linear-gradient(#fff, #dcdcdc);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#dcdcdc');
+	box-shadow: 0 0 2px #dcdcdc;
+	-moz-box-shadow: 0 0 2px #dcdcdc;
+	-webkit-box-shadow: 0 0 2px #dcdcdc;
+}
+
+/* Begin: All Form Settings */
+.row { 
+	display: table-row;
+}
+
+.column { 
+	display: table-column; 	
+}
+
+.message, .error {
+	display: none;
+	margin: 10px;
+	padding: 10px;
+	color: #fff;
+	font-weight: bold;
+	border: dashed 1px #D0E5F5;
+	border: solid 1px #fff;
+}
+
+.error 		{ background: #C00000; }
+.message 	{ background: #34D800; }
+
+label.error { 
+	float: none; 
+	color: red; 
+	padding-left: .5em; 
+	vertical-align: top; 
+}
+
+/* Begin: Dialog Forms */
+.dialog-form-container {
+	margin: 0;
+	padding: 0;	
+}
+
+.dialog-form-container fieldset {
+	border: none;
+}
+
+.dialog-form-container form input[type=text],
+.dialog-form-container form input[type=password] {
+	display: table-cell;
+	width: 200px;
+	font: normal 14px "Lucida Grande", Verdana, Geneva, Sans-serif;
+	color: #333;
+}
+
+.dialog-form-container form fieldset label {
+	display: table-cell;
+	width: 100px;
+	font-weight: bold;
+	text-align: right;
+	padding-right: 10px;
+	vertical-align: middle;
+}
+
+/* Begin: Screen Forms */
+.form-container {
+	margin: 10px;
+	min-width: 500px;
+	padding-bottom: 10px;
+}
+
+.form-container form fieldset {
+	display: table;
+	padding: 15px;
+	margin: 10px;
+	background: #fff;
+	border-left: solid 1px #999;
+	border-top: solid 1px #999;
+	border-right: solid 1px #fff;
+	border-bottom: solid 1px #fff;
+}
+
+.form-container fieldset legend {
+	padding: 0 0 0 10px;
+	width: 250px;
+	line-height: 25px;
+	font-weight: bold;
+	border-top: solid 1px #ccc;
+	border-left: solid 1px #ccc;
+	border-right: solid 1px #999;
+	border-bottom: solid 1px #999;
+	background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#dcdcdc));
+	background: -moz-linear-gradient(top, #fff, #dcdcdc);
+	background: linear-gradient(#fff, #dcdcdc);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#dcdcdc');
+	box-shadow: 0 0 2px #dcdcdc;
+	-moz-box-shadow: 0 0 2px #dcdcdc;
+	-webkit-box-shadow: 0 0 2px #dcdcdc;
+}
+
+.form-container form fieldset label {
+	display: table-cell;
+	width: 150px;
+	font-weight: bold;
+	text-align: right;
+	padding-top: 5px;
+	padding-right: 10px;
+	vertical-align: top;
+}
+
+.form-container form input[type=text],
+.form-container form input[type=password] {
+	display: table-cell;
+	padding: 5px;
+	width: 300px;
+	font: normal 14px "Lucida Grande", Verdana, Geneva, Sans-serif;
+	color: #333;
+	margin-bottom: 10px;
+}
+
+.form-container form input[type=radio] {
+	display: table-cell;
+	padding-top: 10px;
+}
+
+.form-container form textarea {
+	color: #333;
+	width: 305px;
+	margin-top: 10px;
+}
+
+.form-container form select {
+	padding-bottom: 20px;
+	margin-left: 3px;
+}
+
+#footer-container {
+	width: 100%;
+	height: 50px;   /* Height of the footer */
+	border-top: solid 1px #fff;
+	background: -webkit-gradient(linear, left top, left bottom, from(#ccc), to(#ddd));
+	background: -moz-linear-gradient(top, #ccc, #ddd);
+	background: linear-gradient(#ccc, #ddd);
+}
